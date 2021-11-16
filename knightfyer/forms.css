@@ -1,0 +1,75 @@
+forms.css
+
+*{margin: 0;
+padding: 20px0;}
+
+body{
+	font-family: comic sans ms;
+	text-align: center;}
+
+label{color: darkblue;
+	margin-left: 15px;}
+
+h1.success{
+	color: hotpink;
+	text-align: center;}
+
+div.container2{display: block inline-flex;
+	width: 50%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 35px;
+	box-shadow: 0px 0px 20px black;
+	background-color:  #54f92f;
+	border-radius: 8px;}
+
+.form-group{
+	width: 100%;
+	font-size: 20px;
+	text-align: left;
+	background-color: #fca306;
+	padding:  10px;
+	border-radius: 14px;}
+
+
+h2.button button{font-size: 33px;
+		color: #dd0217;
+		background-color: #dbaa81;
+		border-color: darkblue;
+		border-radius:  14px;
+		padding: 15px;}
+
+.form-group input,
+.form-group textarea{
+	width: 95%;
+	line-height: 30px;
+	border-color: #0650ac 3px;
+	text-align: left;
+	border-radius: 4px;
+	margin: 10px;}
+
+.colortable{
+	border: 3px solid #0650ac;
+	padding: 3%;
+	background-color: #8761e4;
+	align-content: center;
+	display: inline-flex;
+	border-radius: 4px;}
+
+.colortable th{
+	border: 2px solid #0650ac;
+	font-size: 22px;
+	color: #0650ac;
+	background-color: white;
+	border-radius: 4px;}
+
+
+.colortable tr td{border: 2px solid #0650ac;
+	border-radius: 4px;
+	font-size: 22px;
+	color: #0650ac;
+	padding: 10px;
+	background-color: white;}
+
+
+

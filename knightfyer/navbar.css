@@ -1,0 +1,71 @@
+
+*{font-family: comic sans ms;}
+
+header{
+	border: 4px solid #0650ac;
+	background-color: #f3fe04;
+	text-align: left;}
+
+body{background-color: #7ad7f0;
+	 padding-left: 45px;}
+
+@media(min-width: 800px and max-width: 899px)
+		{col-med-1}
+	.col-med-1{width: 25%}
+
+@media(min-width: 900px)
+	{col-lg-1}
+	.col-lg-1{width: 30%}
+
+div.container{padding: 20px;}
+
+div.container img{
+	float: left;}
+
+div.picgallery{text-align: center;
+		margin-left: 100px;}
+
+div.picgallery table tr td{
+	padding-right: 80px;}
+
+ul li,a{
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	padding top: 0p;
+	padding-left: 10px;
+	padding-right: 10px;}
+
+li,a,p{font-size: 22px;
+		color: #0650ac;}
+
+h1{
+	color: #c44cc4;
+	font-weight: bolder;
+	text-align: center;}
+
+h2{
+	color: #dd0217;
+	font-weight: bolder;
+	font-size: 30px;}
+
+
+h3{color: #6076e3;
+	font-weight: bolder;
+	font-size: 30px;
+	margin-top: 0;}
+
+div.skrunch{text-align: justify;
+	margin-left: 50px;
+	margin-right: 50px;}
+
+footer{border: 4px solid hotpink;
+	background-color: #100457;
+	text-align: center;
+	width: 100%;}
+
+ul.footer a{font-size: 22px;  
+	color: white;
+	padding-right: 45px;}
+	
+
