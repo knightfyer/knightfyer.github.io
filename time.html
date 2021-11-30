@@ -36,17 +36,37 @@
 </nav>
 		</div class="container">
 	</header>
+	
+<div>	
+	<h1>Learning JavaScript 4 Time & Date</h1>
 
+	<p>The 1st JavaScript learned, is the lil box welcoming you to this page. <br> kinda annoying after awhile!<br>
+			The time and date button is a bit more practical, and i love that!</p>
 
-<h1>Time & Date</h1>
-
-<p>This is my first real javascript that makes sense to me!</p>
-
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
-
+	<button type="button"
+	onclick="document.getElementById('demo').innerHTML = Date()">
+	Click me to display Date and Time.</button>
+</div>
+	<br>
+	<br>
+<div>	
 <p id="demo"></p>
+	<h1>More uses 4 JavaScript</h1>
+		<p>JavaScript can change the sentence on my page.</p>
+
+		<button type="button" onclick="myFunction()">Click Me to change the sentence below!</button>
+
+		<p id="demo2">This is a test, this is only a test! To test the button above, to change this sentence!</p>
+</div>
+
+<script>
+function myFunction() { 
+  document.getElementById("demo2").innerHTML = "Hello JavaScript! Thanx for putting in a new script!";
+}
+</script>
+
+<script src="main.js"></script>	
+
 
 </body>
 </html> 
